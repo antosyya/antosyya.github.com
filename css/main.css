@@ -1,0 +1,307 @@
+/*Спецификация*/
+html {
+	font-size: 15px;
+
+}
+body {
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+div, p, input, button, form, textarea, a {
+  box-sizing: border-box;
+}
+a, a:hover, a:active, a:focus,
+button, input, button:hover, button:active, button:focus,
+input:focus, input:active {
+	text-decoration: none;
+	outline: none;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 42px;
+}
+
+ul, li{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+button {
+  width: 227px;
+  height: 72px;
+  color: #fff;
+  background: #00897b;
+  font-size: 1.333rem;
+  text-transform: uppercase;
+  border: 0;
+}
+.button {
+  padding-top: 23px;
+    display: inline-block;
+    text-decoration: none;
+    width: 201px;
+    height: 73px;
+    color: #fff;
+    background: #00897b;
+    font-size: 1.333rem;
+    text-transform: uppercase;
+}
+
+.d-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.text {
+  text-align: center;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+}
+div, p, input, button, form {
+  box-sizing: border-box;
+}
+
+/*Шапка*/
+
+header {
+  background: url(../img/pexel.jpg) no-repeat center;
+}
+
+.menu {
+  background: #fff;
+}
+.menu_blok {
+  justify-content: space-between;
+  padding-top: 38px; 
+  padding-bottom: 38px;
+}
+nav li {
+  margin-right: 40px;
+}
+nav li:hover {
+  color:  #00897b;
+} 
+.logo {
+  font-size: 1.667rem;
+  font-weight: 700;
+}
+nav {
+  font-size: 1.333rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  
+}
+.first {
+  text-align: center;
+  color: #fff;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 140px 0;
+}
+h1 {
+  
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.first p {
+  padding-bottom: 13%;
+  font-size: 1.467rem;
+  letter-spacing: 1.1px;
+}
+
+/* О нас*/
+.about {
+  padding: 72px 0;
+}
+.about__p {
+  width: 620px;
+  margin: 0 auto 30px;
+  letter-spacing: 0.75px;
+}
+
+.promo {
+  max-width: 280px;
+  letter-spacing: 0.75px;
+}
+/*Портфолио*/
+.portfolio {
+  background: #e4fdf9;
+  padding: 72px 0;
+}
+.work__item {
+  position: relative;
+  width: 370px;
+  height: 370px;
+}
+.work__details {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+   background: rgba(0,0,0,0.56);
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+    font-size: 1.250rem;
+    opacity: 0;
+}
+.work__item:hover .work__details {
+  opacity: 1;
+}
+
+
+/*Контакты*/
+
+.contact {
+    background: #000;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 1.333rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+   
+}
+.contact p {
+   line-height: 10px;
+}
+.justify {
+  justify-content: space-between;
+}
+.justify_content {
+  justify-content: space-around;
+}
+.circle {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #00897b;
+  padding-top: 10px;
+  margin: 0 auto;
+  line-height: 127px;
+}
+.circle_three {
+  line-height: 118px;
+}
+form {
+  margin: 20px;
+}
+input {
+  background: #fff;
+  width: 495px;
+  height: 88px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 1.333rem;
+  padding: 10px;
+}
+ textarea {
+  width: 1000px;
+  height: 500px;
+  font-size: 1.333rem;
+  padding: 10px;
+
+}
+/*Футур*/
+footer{
+  text-align: center;
+  font-size: 1.333rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 1170px) {
+
+  .work__item {
+  width: 300px;
+  height: auto;
+}
+.work__item img {
+  width: 100%;
+  height: auto;
+}
+.container {
+    max-width: 960px;
+}
+input {
+  width: 44%;
+  }
+textarea
+{
+  width: 90%;
+} 
+}
+@media screen and (max-width: 963px) {
+  .logo {
+    margin-left: 15px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .container {
+    width: 100%;
+  }
+  .about__p {
+    width: 90%;
+  }
+
+  .promo {
+    display: block;
+  }
+  .work__item {
+    display: block;
+    width: 80%;
+  }
+  .work__item img {
+     display: block;
+
+  }
+  .contact {
+   font-size: 1.1rem;
+  }
+
+  input {
+    max-width: 90%;
+  }
+  textarea {
+    max-width: 90%;
+
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    display: none;
+  }
+  .d-flex {
+    display: inherit;
+  } 
+  .promo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .work__item {
+    margin: 0 auto 15px;
+  }
+  .work__details {
+    display: none;
+  }
+}
+
+
