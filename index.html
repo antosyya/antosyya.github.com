@@ -115,16 +115,30 @@
 					<p>quickmasud@yahoo.com</p>
 				</div>
 			</div>
-			 <!-- <form action="success.php" class="js-form form" method="post">
-	            <input type="text" name="name" placeholder="Your NAME" class="form__input form-control form__field">
-	            <input type="email" name="email" placeholder="Your E-mail" class="form__input form-control form__field">
-	            <textarea placeholder="Write Massage"></textarea>
-	            <button data-submit>Send</button>
-			 </form> -->
+			 <form action="success.php" class="js-form form" id="popupResult" method="post">
+	                 <input type="text" name="name" required placeholder="Your NAME" class="form__input form-control form__field">
+	                 <input type="email" name="email" placeholder="Your E-mail" class="form__input form-control form__field">
+	                 <textarea name="massage" placeholder="Write Massage" class="form__input form-control form__field"></textarea>
+	                 <button class="form__btn btn-red" data-submit>Send</button>
+			 </form> 
 		</div>
 	</div>
 	<footer>
 		 All rights Reserved © 2017
 	</footer>
+	<div id="loader">
+        <img src="img/ripple.svg">
+    </div>
+    
+    <div id="overlay">
+        <div id="thx">
+          Thanks. We have received your message
+        </div>
+    </div>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+	<!-- Подключен файл-валидатор, для проверки формы на заполненность  -->
+	<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
