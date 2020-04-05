@@ -339,7 +339,7 @@ footer {
     }
 
     .deliver {
-		background: url(../img/burger.png) 66% 80% #fff no-repeat;
+		background: url(../img/burger.png) 70% 80% #fff no-repeat;
 		background-size: 70%;
 	}
 
@@ -358,7 +358,7 @@ footer {
     }
 
     .find {
-		background: url(../img/mobil2.png) 66% 80% no-repeat;
+		background: url(../img/mobil2.png) 50% 80% no-repeat;
 		background-color: #edeef0;	
 		background-size: 30%, 20%;         
 		padding-bottom: 10px;
