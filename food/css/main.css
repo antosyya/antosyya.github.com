@@ -87,7 +87,7 @@ input {
 	height: 65px;
 	border-radius: 9px;
 	background-color: rgba(0,0,0,0);
-	border: 1 solid #9b9a9a;
+	border: 1px solid #9b9a9a;
 }
 
 /*desktop*/
@@ -203,7 +203,6 @@ footer {
 
 .partner h3 {
 	font-size: 0.700rem;
-	color: 
 }
 
 .partner a {
