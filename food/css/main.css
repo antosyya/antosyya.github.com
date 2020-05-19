@@ -130,7 +130,7 @@ header {
 
 .find {
 	position: relative;
-	background: url(../img/cucumber.png) 0% 70% no-repeat,
+	background: url(../img/cucumber.png) 0% 80% no-repeat,
 	            url(../img/mobil2.png) 70% 50% no-repeat,
 	            url(../img/egg.png) 100% 25% no-repeat;         
 	background-color: #edeef0;	
@@ -162,7 +162,7 @@ header {
 }
 
 .find__text {
-	margin-top: 317px;
+	margin-top: 9%;
 	width: 45%;
 	text-align: left;
 	margin-left: 8%;
