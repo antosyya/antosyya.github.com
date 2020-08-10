@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+        <div class="list-rss">
+            <form id ="add" action="">
+                <input type="text" id="urlChannel" placeholder="Введите веб-сайт или канал URL" value="">
+                
+                <input type="button" value="Добавить канал" onclick="addChannel()">
+            </form>
+        </div>
+
+        <h3>Выберите канал для просмотра сообщений</h3>
+        <div id="list"></div>
+
+        <h3>Для просмотра статистики выберете новость</h3>
+        <div id="feed"></div>
+        
+        <div class="window">
+            <h3>Сообщение</h3>
+            <hr>
+        <div id="content"></div>
+        </div>
+            <div class="statistics">
+                <h3>Статистика</h3>
+            <div id="countChannel"></div>
+            <div id="countContent"></div>
+            <div id="countAuthor"></div>
+            <div class="diagram"></div>
+            <div id="chartContainer" style="height: 360px; width: 100%;"></div>
+        </div>
+    <script type="text/javascript" src="https://rss2json.com/gfapi.js"></script>
+    <script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
